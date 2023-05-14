@@ -1,7 +1,7 @@
 # Miniprojekti
 
 
-Projektin tarktoituksena on Salt-työkalua hyödyntäen asentaa kolmen virtuaalikoneen verkkoon seuraavat hyödylliset ohjelmat:
+Projektin tarkoituksena on Salt-työkalua hyödyntäen asentaa kolmen virtuaalikoneen verkkoon seuraavat hyödylliset ohjelmat:
 
  * Micro - Tekstieditori (https://github.com/zyedidia/micro)
  * Thunderbird - Mozillan avoimen lähdekoodin sähköpostiohjelma (https://www.thunderbird.net/fi/)
@@ -74,7 +74,7 @@ Luodaan ensiksi uusi hakemistopolku komennolla:
 
     $ sudo mkdir -p /srv/salt/paketit
   
- Siirytään uuteen hakemistoon ja luodaan Saltin tarvitseman init-tiedosto kommennoilla:
+ Siirytään uuteen hakemistoon ja luodaan Saltin tarvitsema init.sls-tiedosto kommennoilla:
  
     $ cd /srv/salt/paketit
     
@@ -98,7 +98,7 @@ Uuden tilan ajaminen onnistunut orjille. On hyvä myös tarkistaa idempotenssin 
 
     $ sudo salt '*' state.apply paketit 
     
-Uudestaan ja tarkkailla, muuttuuko tilat.
+Uudestaan ja tarkkailla, muuttuuvatko tilat.
 
 ![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/52b5118c-5ed4-4fa3-a818-8cc239110725)
 
