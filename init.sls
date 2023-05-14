@@ -1,1 +1,11 @@
- 1 micro:                                                                                                                2   pkg.installed                                                                                                       3                                                                                                                       4 thunderbird:                                                                                                          5   pkg.installed                                                                                                       6                                                                                                                       7 timeshift:                                                                                                            8   pkg.installed                                                                                                       9                                                                                                                      10 vim:                                                                                                                 11   pkg.installed                                                                                                      12                 
+micro:
+  pkg.installed
+  
+thunderbird:
+  pkg.installed
+  
+timeshift:
+  pkg.installed
+  
+vim:
+  pkg.installed
