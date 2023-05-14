@@ -21,7 +21,7 @@ Projektin tarktoituksena on Salt-työkalua hyödyntäen asentaa kolmen virtuaali
 
 ## Alustus
 
-Ohjeet Vagrantin asennukseen Windowsille ja kolmen koneen verkon luomisesta löytyvät aikaisemmasta raportista H1 (https://github.com/R01-P4R/Palvelinten-Hallinta-2023-kev-t/blob/main/H1.md).
+Ohjeet Vagrantin asennukseen Windowsille ja kolmen koneen verkon luomisesta löytyvät aikaisemmasta raportista: H1 (https://github.com/R01-P4R/Palvelinten-Hallinta-2023-kev-t/blob/main/H1.md).
 
 Aloitetaan siirtymällä Windows Powershellin kautta Vagrantin avulla luotuun kolmen koneen verkkoon komennoilla:
 
@@ -102,13 +102,24 @@ Uudestaan ja tarkkailla, muuttuuko tilat.
 
 ![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/52b5118c-5ed4-4fa3-a818-8cc239110725)
 
-Testissä tilat eivät olleet muuttuneet (changed)
+Testissä tilat eivät olleet muuttuneet (changed).
 
- ## Lopuksi (0:41)
- 
- Tässä harjoituksessa asensin Vagrantin avulla virtuaalikoneita ja harjoittelin komentojen antamista usealla eri koneelle käyttäen Salt-ohjelmaa.
- 
+Seuraavaksi on hyvä käydä katsomassa orja-koneella vielä, että ohjelmat on tosiaan asennettu.
+
+![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/1429575e-b280-40ec-b26a-c6e1d547a866)
+
+![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/8d758627-6ee5-454f-96d6-cfaa52ee3fd7)
+
+![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/b7f78bd5-be17-4545-92ae-2d95c4df20a3)
+
+![image](https://github.com/R01-P4R/Miniprojekti/assets/106889187/2348f573-4bb3-443e-80e6-953144625b11)
+
+Ohjelmat toimivat odotetulla tavalla.
+
+
+
 ## Lähteet
+
 
 
 
@@ -118,7 +129,13 @@ Salt Vagrant - automatically provision one master and two slaves, Tero Karvinen 
 
 Kurssin Palvelinten Hallinta raportit: (https://github.com/R01-P4R/Palvelinten-Hallinta-2023-kev-t)
 
+Micro (https://github.com/zyedidia/micro)
 
+Thunderbird (https://www.thunderbird.net/fi/)
+
+Timeshift (https://github.com/teejee2008/timeshift)
+
+Vim (https://github.com/vim/vim)
 
 
 #### Tehnyt Roi Partanen 15.5.2023
