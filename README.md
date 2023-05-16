@@ -1,4 +1,4 @@
-# Miniprojekti
+# Miniprojekti (versio Alpha)
 
 
 Projektin tarkoituksena on Salt-työkalua hyödyntäen asentaa kolmen virtuaalikoneen verkkoon seuraavat hyödylliset ohjelmat:
